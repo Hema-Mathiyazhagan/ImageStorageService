@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 20px 50px 50px 20px;
+  align-items: left;
+}
+
+.albumbuttons{
+  margin-top:25px;
+  margin-left:19px;
+}
+.album,.images {
+margin-top: 40px;
+margin-right: 40px;
+}
+
+.App{
+  background-color: coral;
+}
+
+input {
+  margin:40px;
+}
+
+
+/* Center website */
+.main {
+  max-width: 1000px;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+  padding:30px;
+}
+
+h2{
+  align-self: center;
+}
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row>.column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none;
+  /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: black;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  outline: none;
+  padding: 12px 16px 12px 12px;
+  cursor: pointer;
+  display:flex;
+  margin: 10px 10px 10px 10px;
+  display: flex;
+}
+
+.Homepage{
+  padding: 30px;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: black;
+  color: white;
+}
+
+
